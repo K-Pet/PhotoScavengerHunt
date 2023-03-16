@@ -48,7 +48,6 @@
 		CD77308229C1208400D979D5 = {
 			isa = PBXGroup;
 			children = (
-				CDA472CB29C2AC5B00A5A3AD /* ImageItems.swift */,
 				CD77308D29C1208400D979D5 /* Photo Scavenger Hunt */,
 				CD77308C29C1208400D979D5 /* Products */,
 			);
@@ -69,6 +68,7 @@
 				CD77309029C1208400D979D5 /* SceneDelegate.swift */,
 				CD98197929C12A3F00C967D9 /* Views */,
 				CDA472CA29C2ABFE00A5A3AD /* Cells */,
+				CDA472CF29C2C99300A5A3AD /* Models */,
 				CD77309429C1208400D979D5 /* Main.storyboard */,
 				CD77309729C1208700D979D5 /* Assets.xcassets */,
 				CD77309929C1208700D979D5 /* LaunchScreen.storyboard */,
@@ -93,6 +93,14 @@
 				CDA472C829C260F700A5A3AD /* LocationTableViewCell.swift */,
 			);
 			path = Cells;
+			sourceTree = "<group>";
+		};
+		CDA472CF29C2C99300A5A3AD /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				CDA472CB29C2AC5B00A5A3AD /* ImageItems.swift */,
+			);
+			path = Models;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
