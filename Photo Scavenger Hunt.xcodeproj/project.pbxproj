@@ -13,6 +13,10 @@
 		CD77309629C1208400D979D5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CD77309429C1208400D979D5 /* Main.storyboard */; };
 		CD77309829C1208700D979D5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CD77309729C1208700D979D5 /* Assets.xcassets */; };
 		CD77309B29C1208700D979D5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CD77309929C1208700D979D5 /* LaunchScreen.storyboard */; };
+		CD98197829C12A3500C967D9 /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD98197729C12A3500C967D9 /* DetailViewController.swift */; };
+		CDA472C929C260F700A5A3AD /* LocationTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDA472C829C260F700A5A3AD /* LocationTableViewCell.swift */; };
+		CDA472CC29C2AC5B00A5A3AD /* ImageItems.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDA472CB29C2AC5B00A5A3AD /* ImageItems.swift */; };
+		CDA472CE29C2BAA400A5A3AD /* LocationAnnotationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDA472CD29C2BAA400A5A3AD /* LocationAnnotationView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +28,10 @@
 		CD77309729C1208700D979D5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		CD77309A29C1208700D979D5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		CD77309C29C1208700D979D5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CD98197729C12A3500C967D9 /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
+		CDA472C829C260F700A5A3AD /* LocationTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationTableViewCell.swift; sourceTree = "<group>"; };
+		CDA472CB29C2AC5B00A5A3AD /* ImageItems.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageItems.swift; sourceTree = "<group>"; };
+		CDA472CD29C2BAA400A5A3AD /* LocationAnnotationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationAnnotationView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -40,6 +48,7 @@
 		CD77308229C1208400D979D5 = {
 			isa = PBXGroup;
 			children = (
+				CDA472CB29C2AC5B00A5A3AD /* ImageItems.swift */,
 				CD77308D29C1208400D979D5 /* Photo Scavenger Hunt */,
 				CD77308C29C1208400D979D5 /* Products */,
 			);
@@ -58,13 +67,32 @@
 			children = (
 				CD77308E29C1208400D979D5 /* AppDelegate.swift */,
 				CD77309029C1208400D979D5 /* SceneDelegate.swift */,
-				CD77309229C1208400D979D5 /* ViewController.swift */,
+				CD98197929C12A3F00C967D9 /* Views */,
+				CDA472CA29C2ABFE00A5A3AD /* Cells */,
 				CD77309429C1208400D979D5 /* Main.storyboard */,
 				CD77309729C1208700D979D5 /* Assets.xcassets */,
 				CD77309929C1208700D979D5 /* LaunchScreen.storyboard */,
 				CD77309C29C1208700D979D5 /* Info.plist */,
 			);
 			path = "Photo Scavenger Hunt";
+			sourceTree = "<group>";
+		};
+		CD98197929C12A3F00C967D9 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				CD77309229C1208400D979D5 /* ViewController.swift */,
+				CD98197729C12A3500C967D9 /* DetailViewController.swift */,
+				CDA472CD29C2BAA400A5A3AD /* LocationAnnotationView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		CDA472CA29C2ABFE00A5A3AD /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				CDA472C829C260F700A5A3AD /* LocationTableViewCell.swift */,
+			);
+			path = Cells;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -139,8 +167,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				CD77309329C1208400D979D5 /* ViewController.swift in Sources */,
+				CDA472C929C260F700A5A3AD /* LocationTableViewCell.swift in Sources */,
 				CD77308F29C1208400D979D5 /* AppDelegate.swift in Sources */,
+				CDA472CE29C2BAA400A5A3AD /* LocationAnnotationView.swift in Sources */,
 				CD77309129C1208400D979D5 /* SceneDelegate.swift in Sources */,
+				CDA472CC29C2AC5B00A5A3AD /* ImageItems.swift in Sources */,
+				CD98197829C12A3500C967D9 /* DetailViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
